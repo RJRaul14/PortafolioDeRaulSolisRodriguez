@@ -82,7 +82,22 @@ body {
   color: white;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  gap: 40px;
   padding: 60px;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-image img {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #38bdf8;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
 .hero h1 {
@@ -215,6 +230,15 @@ footer {
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
+
+  .hero {
+  flex-direction: column;
+}
+
+.hero-image img {
+  width: 240px;
+  height: 240px;
+}
   .navbar {
     width: 90%;
     flex-direction: column;
