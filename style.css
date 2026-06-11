@@ -171,6 +171,10 @@ body {
   margin-bottom: 10px;
 }
 
+.education-card {
+  margin-bottom: 20px;
+}
+
 /* PROYECTOS */
 .cards {
   display: flex;
