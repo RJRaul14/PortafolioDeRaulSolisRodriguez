@@ -125,6 +125,28 @@ body {
   background-color: #7dd3fc;
 }
 
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn-cv {
+  display: inline-block;
+  background-color: transparent;
+  color: #38bdf8;
+  padding: 12px 25px;
+  border: 2px solid #38bdf8;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-cv:hover {
+  background-color: #38bdf8;
+  color: #111827;
+}
+
 /* SECCIONES */
 .section {
   padding: 70px 60px;
